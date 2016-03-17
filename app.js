@@ -26,7 +26,7 @@ app.get('/', function (req, res) {
 
 app.get('/setPosition', function (req, res) {
     var x = positionHandler.setPosition(req.query.pos);
-    console.log('x' + x);
+    console.log('position to set ' + x);
     res.json({success: true});
 });
 app.get('/getPosition', function (req, res) {

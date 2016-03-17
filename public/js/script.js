@@ -80,7 +80,6 @@ var rotationManager = {
     }
 };
 
-//rotationManager.loadCurrentPosition();
 $(document).ready(function () {
 
     rotationManager.init();
