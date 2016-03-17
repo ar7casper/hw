@@ -1,0 +1,33 @@
+.mainWrap {
+    margin-top: 70px;
+}
+.imgWrap {
+    display: block;
+    margin: 20px auto;
+    width: 480px;
+}
+.btnWrap {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+button {
+    display: inline;
+    margin: 90px auto;
+    font-size: 20px;
+    background-color: #FF4263;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 21px;
+    color: white;
+    cursor: pointer;
+}
+.imgWrap img{
+    -webkit-transition: transform 1.6s cubic-bezier(0.77, -0.11, 0.5, 1.4);
+    -moz-transition: transform 1.6s cubic-bezier(0.77, -0.11, 0.5, 1.4);
+    -ms-transition: transform 1.6s cubic-bezier(0.77, -0.11, 0.5, 1.4);
+    -o-transition: transform 1.6s cubic-bezier(0.77, -0.11, 0.5, 1.4);
+    transition: transform 1.6s cubic-bezier(0.77, -0.11, 0.5, 1.4);
+    border-radius: 30px;
+}
