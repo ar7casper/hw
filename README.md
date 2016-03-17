@@ -3,8 +3,9 @@
 ##### Instructions:
 1. Clone the repo
 2. Run ```npm install```
-3. Run ```nodemon``` in the proper directory.
-4. Go to http://localhost:3999/html/index.html 
+3. Run ```npm install -g nodemon```
+4. Run ```nodemon``` in the proper directory.
+5. Go to http://localhost:3999/html/index.html 
 
 ##### Notes: 
 1. I've used a queue mechanism to handle the rotation so it would be more smooth and so that events won't get in the way of each other.
